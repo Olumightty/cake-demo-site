@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
 import React from 'react'
-import { TbH1 } from 'react-icons/tb';
 
 
 const Header = ({children} : {children: React.ReactNode}) => {
