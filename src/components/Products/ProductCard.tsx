@@ -31,7 +31,7 @@ const ProductCard = ({ product }: { product: ProductProps }) => {
         <p className="text-sm text-gray-500 mb-2">
           {product.description}
         </p>
-        <p className="text-(--alternate-color) font-medium">$ {product.price.toFixed(2)}</p>
+        <p className="text-(--alternate-color) font-medium">₦ {(product.price * 1600).toLocaleString()}</p>
       </div>
     </div>
   );
