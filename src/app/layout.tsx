@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Cake | Bakery Site",
   description: "A bakery site built with Next.js and Tailwind CSS",
   icons: {
-    icon: "https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/bakery-catalog-logo-dark-2.png",
+    icon: "/images/logo.svg",
   },
 };
 

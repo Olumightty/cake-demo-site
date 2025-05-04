@@ -55,7 +55,7 @@ const NavBar = () => {
     <nav className='z-30 relative'>
       <UpperNav/>
 
-      <div className='hidden md:flex justify-center items-center bg-(--primary-color) py-10 relative'>
+      <div className='hidden md:flex justify-center items-center bg-(--primary-color) py-3 relative'>
         <ul className='flex gap-6 items-center'>
           <NavLink>HOME</NavLink>
           |
@@ -65,7 +65,7 @@ const NavBar = () => {
         </ul>
         <div className='mx-6'>
           <Image 
-            src='https://preview.milingona.co/themes/bakery/catalog/wp-content/uploads/2017/12/bakery-catalog-logo-dark-2.png' 
+            src='/images/logo.svg' 
             alt='logo' 
             width={100} 
             height={100} 
