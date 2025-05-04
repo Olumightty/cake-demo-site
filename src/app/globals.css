@@ -1,2 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "tailwindcss";
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+:root{
+    --primary-color: #FDFBD4;
+    --secondary-color: #404040;
+    --white: #FFFFFF;
+    --black: #000000;
+    --alternate-color: #D4A13F;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
 
