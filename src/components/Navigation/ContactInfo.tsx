@@ -5,7 +5,7 @@ import { PiPhone } from 'react-icons/pi'
 
 const ContactInfo = () => {
   return (
-    <ul className='flex gap-2 md:gap-4 items-center text-xs md:text-sm'>
+    <ul className='flex gap-2 md:gap-4 items-center justify-center flex-wrap md:flex-nowrap text-xs md:text-sm'>
           <li className='flex items-center gap-2'>
             <PiPhone size={15} />
             <span>+234 813 123 4567</span>

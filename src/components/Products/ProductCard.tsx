@@ -13,7 +13,7 @@ interface ProductProps {
 const ProductCard = ({ product }: { product: ProductProps }) => {
 
   return (
-    <div id='productCard' className="flex items-center w-full max-w-xl p-4 rounded-md transition-all hover:shadow-sm cursor-pointer">
+    <div id='productCard' className="flex flex-col md:flex-row items-center w-full max-w-xl p-4 rounded-md transition-all hover:shadow-sm cursor-pointer">
       <div className="flex-shrink-0 mr-6">
         <div className="w-24 h-24 rounded-full overflow-hidden flex items-center justify-center">
           <Image 

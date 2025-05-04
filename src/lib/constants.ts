@@ -26,7 +26,7 @@ export const bakeryProducts = [
       category: "Bread",
       description: "Nutritious and hearty, made with 100% whole grain flour for a robust flavor.",
       price: 4.50,
-      image: "/path/to/whole-wheat.jpg"
+      image: "/images/whole-wheat.jpeg"
     },
     
     // Cakes Category
@@ -44,7 +44,7 @@ export const bakeryProducts = [
       category: "Cakes",
       description: "Moist carrot cake with nuts, spices, and cream cheese frosting.",
       price: 32.50,
-      image: "/path/to/carrot-cake.jpg"
+      image: "/images/carrot-cake.jpeg"
     },
     
     // Cookies Category
@@ -54,7 +54,7 @@ export const bakeryProducts = [
       category: "Cookies",
       description: "Classic cookies with semisweet chocolate chunks and a soft, chewy center.",
       price: 1.99,
-      image: "/path/to/chocolate-chip.jpg"
+      image: "/images/chocolate-chip.jpeg"
     },
     {
       id: 7,
@@ -72,7 +72,7 @@ export const bakeryProducts = [
       category: "Biscuits",
       description: "Flaky, buttery biscuits made with real buttermilk. Served warm.",
       price: 2.25,
-      image: "/path/to/buttermilk-biscuits.jpg"
+      image: "/images/buttermilk-biscuit.jpeg"
     },
     {
       id: 9,
@@ -80,7 +80,7 @@ export const bakeryProducts = [
       category: "Biscuits",
       description: "Savory biscuits loaded with sharp cheddar cheese and herbs.",
       price: 2.50,
-      image: "/path/to/cheddar-biscuits.jpg"
+      image: "/images/cheddar-biscuits.jpeg"
     },
     
     // Pies Category
@@ -108,7 +108,7 @@ export const bakeryProducts = [
       category: "Cupcakes",
       description: "Light vanilla cupcake topped with buttercream frosting and sprinkles.",
       price: 3.50,
-      image: "/path/to/vanilla-cupcake.jpg"
+      image: "/images/vanilla-cupcake.jpeg"
     },
     {
       id: 13,
@@ -116,6 +116,12 @@ export const bakeryProducts = [
       category: "Cupcakes",
       description: "Classic red velvet cake with cream cheese frosting.",
       price: 3.75,
-      image: "/path/to/red-velvet-cupcake.jpg"
+      image: "/images/red-velvet-cupcake.jpeg"
     }
   ];
+
+export const heroText = [
+    "Freshly Baked, Lovingly Delivered <br /> — <br /> From Our Oven to Your Door.",
+    "Indulge in artisan breads, cakes, and pastries made with love and the finest ingredients.",
+    "Custom cakes for birthdays, weddings, and every sweet moment in between."
+]
