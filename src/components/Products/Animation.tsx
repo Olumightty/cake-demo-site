@@ -3,7 +3,6 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { useSearchParams } from 'next/navigation'
-import React from 'react'
 
 const Animation = () => {
     

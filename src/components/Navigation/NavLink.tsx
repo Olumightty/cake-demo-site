@@ -1,4 +1,3 @@
-import { ChevronDown } from 'lucide-react'
 import React from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
 import {
@@ -10,8 +9,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import Link from 'next/link'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
 
 const NavLink = ({children, isDropdown}: {children: React.ReactNode, isDropdown?: boolean}) => {
   const [open, setOpen] = React.useState(false)

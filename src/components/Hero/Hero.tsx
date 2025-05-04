@@ -1,7 +1,5 @@
 import React from 'react'
 import Slider from './Slider'
-import Header from './Header'
-import HeroCarousel from './HeroCarousel'
 
 const Hero = () => {
   return (

@@ -1,7 +1,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Animation from './Animation';
 
 interface ProductProps {
     id: number;
